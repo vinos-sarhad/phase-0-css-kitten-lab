@@ -1,4 +1,44 @@
 /* Select the image with a class of kitty-1 */
+.kitty-1{
+
+}
+#kitty-2{
+
+}
+
+#basket{
+
+}
+#basket img{
+
+}
+
+#ball ~ img[alt="kitty 4"] {
+  /* Styles for the image with alt="kitty 4" preceded by #ball element */
+}
+
+
+.kitty-1 + img {
+  /* Styles for the image following the .kitty-1 class */
+}
+
+
+#wheelbarrow + img {
+  /* Styles for the image following the #wheelbarrow div */
+}
+
+img[alt="Kitty 5"]{
+  
+}
+#kitty-2 + img {
+  /* Styles for the image following the #kitty-2 id */
+}
+
+#basket + img {
+  /* Styles for the image following the #basket div */
+}
+
+
 write-your-selector-here {
   position: absolute;
   z-index: 1;
